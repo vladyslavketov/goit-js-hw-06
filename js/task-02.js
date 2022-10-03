@@ -17,4 +17,4 @@ const ingredientsItemsRef = ingredients.map(ingredientName => {
   return liRef;
 });
 
-ingredientsListRef.append(...ingredientsItemRef);
+ingredientsListRef.append(...ingredientsItemsRef);
